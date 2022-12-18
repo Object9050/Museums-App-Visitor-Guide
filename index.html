@@ -12,19 +12,22 @@
     <div class="navbar">
         <a href="./index.html"><img class="logo" src="./img/logo_einfach_500x500.png" alt="MD21 Logo"></a>
         <nav>
-            <ul>
+            <ul id="menuList">
                 <li><a href="#">Ausstellungen</li></a>
                 <li><a href="#">Die Sammlung MD21</li></a>
                 <li><a href="#">Informationen</li></a>
+                <li><a href="#">Suche</li></a>
             </ul>
         </nav>
-        <img class="menu-icon" src="./img/menu-icon.png" alt="Menü-Icon">
+        <img class="menu-icon" onclick="toggleMenu()" 
+        src="./img/menu-icon.png" alt="Menü-Symbol">
     </div>
 </header>
 <body>
     <main>
 
     </main>
-    
+<script src="./toggleMenu.js"></script>
+<script type="module" src="./main.js"></script>    
 </body>
 </html>

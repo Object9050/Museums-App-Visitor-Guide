@@ -27,6 +27,7 @@ header {
     width: 100px;
     background-color: #F4DB7D;
     cursor: pointer;
+    display: none;
 }
 nav {
     flex: 1;
@@ -45,20 +46,27 @@ nav ul li a:hover {
 }
 
 /* Menu-Icon only to show up when width of screen at least x amount of pixels */
-/* @media (min-width: 600px){
+@media only screen and (max-width: 720px){
     .menu-icon {
-        display: none;
+        display:block;
     }
     nav ul {
-        width: 100%;
+        width: 84%;
         background-color: #F4DB7D;
         position: absolute;
-        top: 100px;
-        right: 0px;
+        top: 130px;
+        right: 0;
         z-index: 2;
     }
     nav ul li {
         display: block;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
-} */
+    #menuList {
+        overflow:hidden;
+        transition: 0.65s;
+        margin-right: 8%;
+    }
+}
 
