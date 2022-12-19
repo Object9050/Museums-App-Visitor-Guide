@@ -4,9 +4,14 @@
     font-family:'Work Sans', serif;
     color: #1A2238;
 }
+* h3 {
+    font-family: 'Montserrat', serif;
+    font-size: 48px;
+    text-align: center;
+}
 header {
     width: 100%;
-    min-height: 100vh;
+    min-height: 52vh;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
