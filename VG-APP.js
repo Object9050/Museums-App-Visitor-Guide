@@ -2,6 +2,9 @@ import { Objekt21, machwas } from './modules/object21.js';
 //import { logger21 } from './modules/logger.js';
 //import('./modules/Object21.js');
 
+// Damit wir weniger oft console.log schreiben müssen. Thx @Stephan :-)
+const C = console.log.bind(console);
+
 //Beispiel für den import einer Funktion
 machwas()
 
@@ -26,7 +29,7 @@ let VG21 = new Map()
  * Start:   Daten aus JSON Datei einlesen und Liste von Objekten 
  *          (in Form einer Map) anlegen
  */
-const o21Map = await Objekt21.CreateO21Map("./data/objekt21-data.json")
+const o21Map = await Objekt21.CreateO21Map("./data/object21-data.json")
 C ("Anzahl: " + o21Map.size);
 
 // Derzeit koennen wir die o21 Map dem Visitor Guide direkt zuweisen.
@@ -60,10 +63,16 @@ function search(){
      * 1. Länge soll max 5 sein
      * 2. Erster Buchstabe muss A (=> Ausstellung), O (=> Objekt) oder S(=> Sammlung) sein
      *  */ 
-    let searchResult = document.getElementById("searchResult").textContent;
+
+    let searchResult = document.getElementById("searchResult");
     let o21 = VG21.get(userInput);
     
+    if (searchResult.textContent == ""){
     createElement("p", {"textContent":`Deine Suche nach ${userInput} hat folgendes Ergebnis geliefert:`});
     createElement("h3", {"textContent":o21.name});
     createElement("p",{"textContent": `Langbeschreibung: ${o21.langbeschreibung}`});
+    }
+    else{
+        searchResult.innerHTML = "";
+    }
 }
