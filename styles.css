@@ -61,7 +61,7 @@ nav ul li a:hover {
     color: #9DAAF2;
 }
 
-/* Menu-Icon only to show up when width of screen at least x amount of pixels */
+/* Menu-Icon only to show up when width of screen smaller than x amount of pixels */
 @media only screen and (max-width: 720px){
     * {font-size: 18px;}
     .logo {
@@ -75,7 +75,7 @@ nav ul li a:hover {
     }
     header {
         width: 100%;
-        min-height: 45vh;
+        min-height: 30vh;
         padding-left: 8%;
         padding-right: 8%;
         box-sizing: border-box;

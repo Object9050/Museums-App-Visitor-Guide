@@ -38,7 +38,7 @@ let dataFunc = function (data){
     for (let index = 0; index < data.length; index++){
         let o = new Objekt21(data[index])
         vg.set(o.objektID,o);
-        logger21.log(o.objektID)
+        console.log(o.objektID);
     }
     console.log(vg)
     console.log(vg.size)
@@ -61,17 +61,46 @@ let dataFunc = function (data){
 
 }
 
-fetch("./data/objekt21-data.json").then(responseFunc).then(dataFunc);
+fetch("./data/object21-data.json").then(responseFunc).then(dataFunc);
    
 
 
 
 // 1. Daten müssen in den Visitor Guide
-vg.set("O23KE", new Objekt21())
-console.log ( "MAP" + vg.get("O23KE").name)
+// Beispiel
+// vg.set("O23KE", new Objekt21())
+// console.log ( "MAP" + vg.get("O23KE").name)
 
 // 2. Daten müssen (vor-) verarbeitet werden
 // 3. Website muss erstellt
 // 4. Daten auf der Website darstellen
 
 //logger21.log("check");
+
+// Allgemeine createElement-Funktion. Nimmt den Elementtyp und ein Objekt mit Attributwerten entgegenen.
+// Ein Element mit entsprechendem Typ wird erstellt. Danach wird durch die Attribute des Objekts iteriert 
+// und diese werden dem Element hinzugefügt. Am Ende wird das fertige Element dem HTML Main-Tag hinzugefügt.
+// Hilfreiche Quellen: https://stackoverflow.com/questions/43168284/javascript-createelement-function
+// https://www.w3schools.com/jsref/met_document_createelement.asp
+function createElement(type, attributes){
+    let element = document.createElement(type);
+    for (var key in attributes){
+        element[key] = attributes[key];
+    }
+    document.getElementById("searchResult").appendChild(element);
+}
+
+// Event Listener for finder button to call on search()
+let startSearch = document.getElementById("btn-finder");
+startSearch.addEventListener("click", search);
+
+// Search Function
+function search(){
+    let userInput = document.getElementById("searchField").value;
+    let searchResult = document.getElementById("searchResult").textContent;
+    let o21 = vg.get(userInput);
+    
+    createElement("p", {"textContent":`Deine Suche nach ${userInput} hat folgendes Ergebnis geliefert:`});
+    createElement("h3", {"textContent":o21.name});
+    createElement("p",{"textContent": `Langbeschreibung: ${o21.langbeschreibung}`});
+}
