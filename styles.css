@@ -1,17 +1,21 @@
+/* CSS Global */
 * {
     margin:0;
     padding:0;
     font-family:'Work Sans', serif;
     color: #1A2238;
+    font-size: 28px;
 }
 * h3 {
     font-family: 'Montserrat', serif;
     font-size: 48px;
     text-align: center;
 }
+
+/* CSS Header */
 header {
     width: 100%;
-    min-height: 52vh;
+    min-height: 50vh;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -24,6 +28,13 @@ header {
 }
 .logo {
     width: 100px;
+    background-color:#F4DB7D;
+    margin: 30px 0;
+    cursor: pointer;
+    display: none;
+}
+.logoBig {
+    width: 300px;
     background-color:#F4DB7D;
     margin: 30px 0;
     cursor: pointer;
@@ -52,8 +63,23 @@ nav ul li a:hover {
 
 /* Menu-Icon only to show up when width of screen at least x amount of pixels */
 @media only screen and (max-width: 720px){
+    * {font-size: 18px;}
+    .logo {
+        display: block;
+    }
+    .logoBig {
+        display: none;
+    }
     .menu-icon {
-        display:block;
+        display: block;
+    }
+    header {
+        width: 100%;
+        min-height: 45vh;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
     }
     nav ul {
         width: 84%;
@@ -65,13 +91,60 @@ nav ul li a:hover {
     }
     nav ul li {
         display: block;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
     }
     #menuList {
         overflow:hidden;
         transition: 0.65s;
         margin-right: 8%;
     }
+    footer {
+        padding: 10px 8% 0px;
+    }
 }
 
+/* CSS Main */
+main {
+    width: 100%;
+    height: 100%;
+    /* min-height: 45vh; */
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+form {
+    text-align: center;
+}
+input{
+    padding: 2px;
+}
+button {
+    display: block;
+    margin: .5rem auto;
+}
+footer {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: fixed;
+    padding: 10px 8% px;
+    bottom: 0;
+    /* Height of the footer*/
+    height: 40px;
+    background: #F4DB7D;
+}
+.EOL {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    color: #9DAAF2;
+}
