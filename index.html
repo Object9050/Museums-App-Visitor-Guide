@@ -23,7 +23,7 @@
         <a href="./index.html"><img class="logoBig" src="./img/logo_Website_500x500.png" alt="MD21 Logo groß"></a>
         <nav>
             <ul id="menuList">
-                <li><a href="#">Objekte</li></a>
+                <li id="btn-obj"><a href="#">Objekte</li></a>
                 <li><a href="#">Ausstellungen</li></a>
                 <li><a href="#">Die Sammlung MD21</li></a>
                 <li><a href="#">Informationen</li></a>
@@ -41,7 +41,9 @@
             <input type="input" id="searchField" aria-describedby="searchField">
         </form>
         <button id="btn-finder">Finden</button>
-        <article id="searchResult"></article>
+        <article class="grid" id="searchResult">
+            <div id="result"></div>
+        </article>
     </main>
 <script src="./toggleMenu.js"></script>
 <script type="module" src="./VG-APP.js"></script>    

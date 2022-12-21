@@ -9,7 +9,7 @@ class Objekt21 {
     #untertitel 
     #kurzbeschreibung
     #langbeschreibung 
-    Bild
+    #bild
     #bereitstellendeInstitution
     #urheber
     #eigentuemer

@@ -15,7 +15,7 @@
 /* CSS Header */
 header {
     width: 100%;
-    min-height: 50vh;
+    min-height: 40vh;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -75,7 +75,7 @@ nav ul li a:hover {
     }
     header {
         width: 100%;
-        min-height: 30vh;
+        min-height: 32vh;
         padding-left: 8%;
         padding-right: 8%;
         box-sizing: border-box;
@@ -123,6 +123,35 @@ input{
 button {
     display: block;
     margin: .5rem auto;
+}
+
+/* Grid for Search Results */
+.grid {
+    /* Nachschauen: Wie dynamisch 3- max. 6 Spalten festlegen? */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 2rem;
+    padding-left: 8%;
+    padding-right: 8%; 
+    /* Erstellt eine grid box um alle flex boxen */
+    border: 2px solid #1A2238;
+    padding: 1rem;
+    background-color: #FF6A3D;
+}
+/* Flex box for each object */
+.flexElement {
+    display: flex;
+    flex-flow: column;
+    border: 2px solid #1A2238;
+    background-color: #F4DB7D;
+    padding: 1rem;
+    text-align: left;
+    margin-top: 1rem;
+
+}
+#result{
+    text-align: center;
+    padding-bottom: 2rem;
 }
 footer {
     width: 100%;

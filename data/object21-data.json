@@ -22,5 +22,17 @@
         "eigentuemer":"",
         "artDesObjekts":"3D",
         "audiodeskription":""
+    },
+    {
+        "objektID":"ABC12",
+        "name":"Unicorn",
+        "untertitel":"",
+        "kurzbeschreibung":"",
+        "langbeschreibung":"Dream Horse. Current Location: Dreamland" ,
+        "bereitstellendeInstitution":"Dreamworld",
+        "urheber":"Dreams",
+        "eigentuemer":"",
+        "artDesObjekts":"dream",
+        "audiodeskription":""
     }
 ]
