@@ -123,6 +123,7 @@ input{
 button {
     display: block;
     margin: .5rem auto;
+    cursor: pointer;
 }
 
 /* Grid for Search Results */
@@ -130,13 +131,24 @@ button {
     /* Nachschauen: Wie dynamisch 3- max. 6 Spalten festlegen? */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 2rem;
+    gap: 1rem;
     padding-left: 8%;
     padding-right: 8%; 
-    /* Erstellt eine grid box um alle flex boxen */
+    /* Erstellt eine sichtbare grid box um alle flex boxen */
     border: 2px solid #1A2238;
     padding: 1rem;
     background-color: #FF6A3D;
+    margin-bottom: 70px;
+
+}
+.grid2 {
+    margin-top: 3rem;
+    display: flex;
+    flex-flow: column;
+    border: 2px solid #1A2238;
+    background-color: #F4DB7D;
+    padding: 1rem;
+
 }
 /* Flex box for each object */
 .flexElement {
@@ -146,12 +158,13 @@ button {
     background-color: #F4DB7D;
     padding: 1rem;
     text-align: left;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
+
 
 }
 #result{
     text-align: center;
-    padding-bottom: 2rem;
+    /* display: none; */
 }
 footer {
     width: 100%;

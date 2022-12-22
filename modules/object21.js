@@ -29,6 +29,16 @@ class Objekt21 {
     get untertitel () {return this.#untertitel}
     get kurzbeschreibung () {return this.#kurzbeschreibung}
     get langbeschreibung () {return this.#langbeschreibung}
+    get bild (){
+        let img ="";
+        if (this.#bild == undefined){
+            img="img/logo_einfach_500x500.png"
+        }
+        else {
+            img = this.#bild
+        }
+        return img
+    }
     get bereitstellendeInstitution () {return this.#bereitstellendeInstitution}
     get urheber () {return this.#urheber}
     get eigentuemer () {return this.#eigentuemer}
@@ -56,6 +66,7 @@ class Objekt21 {
             this.#name = obj21Data.name
             this.#untertitel = obj21Data.untertitel
             this.#langbeschreibung = obj21Data.langbeschreibung
+            this.#bild = obj21Data.bild
             this.#bereitstellendeInstitution = obj21Data.bereitstellendeInstitution
             this.#urheber = obj21Data.urheber
             this.#eigentuemer = obj21Data.eigentuemer

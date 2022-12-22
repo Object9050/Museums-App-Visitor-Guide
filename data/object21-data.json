@@ -5,11 +5,13 @@
         "untertitel":"",
         "kurzbeschreibung":"",
         "langbeschreibung":"A stone mould with a cross impression on one face. Possibly Byzantine or Eastern Mediterranean. 6th to 11th century AD. Material: Stone. Accession no: HCA 692. Current location: The Hunt Museum, Limerick, Ireland.",
+        "bild":"https://ciim-public-media-s3.s3.eu-west-2.amazonaws.com/hunt/large_HCA_692.jpg",
         "bereitstellendeInstitution":"The Hunt Museum ",
         "urheber":"he Hunt Museum as part of the Art of Reading in the Middle Ages project.",
         "eigentuemer":"",
         "artDesObjekts":"3D",
-        "audiodeskription":""
+        "audiodeskription":"NEIN",
+        "URL":"https://www.huntmuseum.com/explore/item/4bd25b66-7f5e-332e-8b9c-15d84c3c05a7/?s%3Dmould&pos=12"
     },
     {
         "objektID":"OKK99",
@@ -17,6 +19,7 @@
         "untertitel":"",
         "kurzbeschreibung":"",
         "langbeschreibung":"A figure of Virgin and child in pipe-clay. The Virgin is dressed in long robes and wearing a long veil and crown, the child rests on her left hip. The Mother and Child hold hands and the Infant holds her left wrist. This piece is made from a mould and may have been used as a staff mount. This object is likely Dutch.    Culture: Medieval. Material: Pipe-clay. Accession no: MG 031. Current Location: The Hunt Museum, Limerick, Ireland." ,
+        "bild":"https://ciim-public-media-s3.s3.eu-west-2.amazonaws.com/hunt/large_MG_031.jpg",
         "bereitstellendeInstitution":"The Hunt Museum ",
         "urheber":"The Hunt Museum as part of the Art of Reading in the Middle Ages project.",
         "eigentuemer":"",
@@ -28,11 +31,68 @@
         "name":"Unicorn",
         "untertitel":"",
         "kurzbeschreibung":"",
-        "langbeschreibung":"Dream Horse. Current Location: Dreamland" ,
+        "langbeschreibung":"Dream Horse. Current Location: Dreamland",
+        "bild":"./img/unicorn.jpg",
         "bereitstellendeInstitution":"Dreamworld",
         "urheber":"Dreams",
         "eigentuemer":"",
         "artDesObjekts":"dream",
         "audiodeskription":""
+    },
+    {
+        "objektID":"OAK12",
+        "name":"Allegorie der Skulptur",
+        "untertitel":"",
+        "kurzbeschreibung":"",
+        "langbeschreibung":"Gustav Klimts Beitrag zum Prachtwerk der Festschrift anlässlich des 25-jährigen Bestehens des k. k. Österreichischen Museums für Kunst und Industrie (heute MAK) ist die Allegorie der Skulptur. Dieses Aquarell steht für den Symbolismus in seinem Frühwerk: Im Zentrum die nackte Personifikation der Skulptur, geschmückt mit hellenistisch anmutendem Haarschmuck, einem Schlangenreif, Ohrringen und einem goldenen feingliedrigen Collier. In ihrer linken Hand hält sie eine auf der Weltkugel balancierende Viktoria mit Lorbeerkranz. Den Bildhintergrund gestalten bekannte Bildhauermotive aus der Antike wie der Dornauszieher, die Athena Parthenos sowie – über allen thronend – Juno Ludovisi. 1897 erschien Martin Gerlachs Allegorien. Neue Folge, worin Klimt abermals auf das Thema der allegorischen Darstellung der Skulptur Bezug nimmt, jedoch die antikisierende Darstellung stark aufbricht." ,
+        "bild":"https://upload.wikimedia.org/wikipedia/commons/b/b4/Klimt_-_Allegorie_der_Skulptur.jpg",
+        "bereitstellendeInstitution":"MAK - Museum für angewandte Kunst, Wien",
+        "urheber":"Gustav Klimt",
+        "eigentuemer":"",
+        "artDesObjekts":"Illustration",
+        "audiodeskription":"NEIN",
+        "URL": "https://artsandculture.google.com/asset/allegorie-der-skulptur-gustav-klimt/8AFZnRMMxIPKHw"
+    },
+    {
+        "objektID":"OSL12",
+        "name":"Mädchen im Profil nach Gustav Klimt",
+        "untertitel":"Tafel 27, Gustav Klimt - Die Nachlese",
+        "kurzbeschreibung":"",
+        "langbeschreibung":"Entwurf des abgebildeten Werks: Gustav Klimt, Wien um 1916" ,
+        "bereitstellendeInstitution":"MAK - Museum für angewandte Kunst, Wien",
+        "urheber":"Gustav Klimt",
+        "eigentuemer":"",
+        "artDesObjekts":"Illustration",
+        "audiodeskription":"NEIN",
+        "URL": "https://artsandculture.google.com/asset/m%C3%A4dchen-im-profil-nach-gustav-klimt-tafel-27-gustav-klimt-die-nachlese-gustav-klimt/RQHtKL1wGCUr9w"
+    },
+    {
+        "objektID":"ODK32",
+        "name":"AIGA",
+        "untertitel":"Tafel 27, Gustav Klimt - Die Nachlese",
+        "kurzbeschreibung":"",
+        "langbeschreibung":"Stefan Sagmeister (geb. 1962) eröffnete nach seiner Ausbildung an der Universität für angewandte Kunst 1993 sein eigenes Büro in New York. Seine Herangehensweise an die Lösung eines Designproblems und sein Verständnis für Grafikdesign machten ihn rasch zum gefeierten Star der Grafikszene. Seine Entwürfe für Plakate oder CD-Cover sind „visualisierte Haptik“, die unter ständiger Missachtung vermeintlich geltender Gestaltungsregeln entstehen und ein genuines Werk mit hohem Wiedererkennungswert schaffen. Zu seinen Kunden zählen Aerosmith, die Rolling Stones, Lou Reed, Pat Metheny oder David Byrne. Das hier gezeigte Plakat für seinen Vortrag Style = Fart wurde zu einer Ikone. Sagmeister ließ sich den Text mittels eines Messers in seinen Körper ritzen, in seiner linken Hand hält er Pflaster bereit. So bewegt sich das Plakat, wenn auch ironisch gemeint, zwischen christlicher Ikonografie (Schmerzensmann) und dem Wiener Aktionismus der späten 1960er Jahre. AIGA ist Teil der rund 24 000 Plakate umfassenden Kollektion der MAK-Bibliothek und Kunstblättersammlung. Anlässlich seiner ersten Ausstellung im MAK im Jahr 2002 entstand das Stefan-Sagmeister-Archiv mit rund 200 Objekten." ,
+        "bereitstellendeInstitution":"MAK - Museum für angewandte Kunst, Wien",
+        "urheber":"Stefan Sagmeister",
+        "eigentuemer":"",
+        "artDesObjekts":"Poster",
+        "audiodeskription":"NEIN",
+        "URL": "https://artsandculture.google.com/asset/aiga-stefan-sagmeister/BwHwo6EZegwxEQ"
     }
+    ,
+    {
+        "objektID":"OFJ52",
+        "name":"Eine stachlige Gebärmutter",
+        "untertitel":"Dieses Objekt sieht gefährlich aus. Doch die eirunde Holzkugel mit eingeleimten Stacheln ist keine schmerzhafte Waffe. Sie ist ein Votiv gegen Krankheiten der Gebärmutter oder gegen Kinderlosigkeit. Votive sind Gegenstände, die als symbolische Opfer zu kultischen Stätten gebracht werden. Bereits in der Antike wurden Votive aus Ton geopfert, die in verkleinerter Darstellung ein Leiden repräsentierten. In der katholischen Kirche bringt man Votive meist für die Bitte um Heilung oder aus Dank für eine Genesung dar. Dabei werden die einzelnen Erkrankungen plastisch dargestellt. Innere Organe wie Herz, Lunge oder Gebärmutter wurden häufig aus Holz gearbeitet, Tier- und Menschvotive oft aus Metall. Aus Wachs stellt man bis heute Votive mit Hilfe von Holzmodeln her. Dieses hölzerne Gebärmuttervotiv entstand Ende des 19. Jahrhunderts in Italien. Am Eirund ist eine Drahtschlinge zum Aufhängen angebracht.",
+        "kurzbeschreibung":"Votive sind Gegenstände, die als symbolische Opfer zu kultischen Stätten gebracht werden. Bereits in der Antike wurden Votive aus Ton geopfert, die in verkleinerter Darstellung ein Leiden repräsentierten. In der katholischen Kirche bringt man Votive meist für die Bitte um Heilung oder aus Dank für eine Genesung dar",
+        "langbeschreibung":"Bereits in der Antike wurden Votive aus Ton, die in verkleinerter Darstellung ein Leiden repräsentierten, geopfert. In der katholischen Kirche bringt man Votive meist für die Bitte um Heilung oder aus Dank für eine Genesung dar. Dabei werden die einzelnen Erkrankungen plastisch dargestellt. Innereien wie Herz, Lunge oder Gebärmutter wurden häufig aus Holz gearbeitet,Tier- und Menschvotive häufig aus Metall. Aus Wachs stellt man bis heute Votive mit Hilfe von Holzmodeln her." ,
+        "bereitstellendeInstitution":" Museum Europäischer Kulturen, Staatliche Museen zu Berlin",
+        "urheber":"",
+        "eigentuemer":"",
+        "artDesObjekts":"Objekt",
+        "audiodeskription":"NEIN",
+        "URL": "https://artsandculture.google.com/asset/plastisches-votiv-%E2%80%9Egeb%C3%A4rmutter%E2%80%9C-unbekannt/pwGzcnWllGsLJQ"
+    }
+
+
 ]
