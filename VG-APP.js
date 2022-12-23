@@ -1,16 +1,10 @@
 import { Objekt21, machwas } from './modules/object21.js';
-//import { logger21 } from './modules/logger.js';
-//import('./modules/Object21.js');
 
 // Damit wir weniger oft console.log schreiben müssen. Thx @Stephan :-)
 const C = console.log.bind(console);
 
 //Beispiel für den import einer Funktion
 machwas()
-
-// let o21 = new Objekt21();
-// console.log (o21.objektID)
-// logger21.log("meine Lognachricht")
 
 //Der Visitor Guide beseteht derzeit aus einem einzelnen Map-Objekt
 let VG21 = new Map()
@@ -125,7 +119,8 @@ function createElement(HTML_ElementID, type, attributes){
 }
 
 // Prepares the HTML code for the search results functions and Footer items
-// I did this because otherwise the already present HTML code would trigger
+// Dynamically creates the necessary html element article with ID "result".
+// Before, this was hard coded into html but that would trigger
 // CSS code to show an empty grid box on default. Not pretty.
 function prepareHtml(HTML_ElementID, className) {
     // Check for existing HTML ID "restult" and remove if present. This was
@@ -142,7 +137,7 @@ function prepareHtml(HTML_ElementID, className) {
     let article = document.getElementById("result");
     article.classList.add(className);
 
-    // Set search results to empty strings
+    // Set search results to empty strings before each search.
     let searchResult = document.getElementById("result");
     searchResult.innerText = "";
 }
