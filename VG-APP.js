@@ -102,6 +102,7 @@ function checkUserInput(html_SearchField_ID){
         C ("All good!")
     }
     else {
+        prepareHtml("VG-App", "grid2");
         createElement("result", "p", 
         {"textContent":"Bitte eine ID mit einer Länge von 5 Zeichen eingeben"});
         C ("ID has to be 5 characters long");
